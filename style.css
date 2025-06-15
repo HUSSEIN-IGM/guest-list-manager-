@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+select {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#guest-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.attending {
+  color: green;
+  font-weight: bold;
+}
+
+.not-attending {
+  color: red;
+  font-weight: bold;
+}
+
+.tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.friend {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.family {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.colleague {
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+
+li button {
+  margin-left: 5px;
+  background-color: #6c757d;
+}
+
+li button:hover {
+  background-color: #495057;
+}
