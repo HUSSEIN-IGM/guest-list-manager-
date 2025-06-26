@@ -69,4 +69,4 @@ function renderGuests() {
     li.append(tag, guestText, rsvpBtn, delBtn);
     guestList.appendChild(li);
   });
-}        check ai chatgpt content
+}        
