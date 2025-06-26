@@ -1,48 +1,59 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding: 20px;
-  max-width: 600px;
-  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
+  background-color: #f9f9f9;
+  padding: 25px 15px;
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #2c2c2c;
+  letter-spacing: 0.5px;
 }
 
 form {
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 8px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
 }
 
 input[type="text"],
 select {
-  flex: 1;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 16px;
+  flex: 1 1 auto;
+  padding: 9px 12px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  font-size: 15.5px;
+  background-color: #fff;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
 }
 
 button {
-  padding: 10px 16px;
-  background-color: #007bff;
-  color: white;
+  padding: 9px 16px;
+  background-color: #198754;
+  color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   font-size: 15px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #146c43;
 }
 
 #guest-list {
   list-style-type: none;
-  padding: 0;
+  padding-left: 0;
 }
 
 li {
@@ -50,51 +61,18 @@ li {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid #ddd;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 8px;
+  margin: 12px 0;
+  padding: 12px 14px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .attending {
-  color: green;
-  font-weight: bold;
+  color: #2e7d32;
+  font-weight: 500;
 }
 
 .not-attending {
-  color: red;
-  font-weight: bold;
-}
-
-.tag {
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 12px;
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-.friend {
-  background-color: #d1ecf1;
-  color: #0c5460;
-}
-
-.family {
-  background-color: #fff3cd;
-  color: #856404;
-}
-
-.colleague {
-  background-color: #e2e3e5;
-  color: #383d41;
-}
-
-li button {
-  margin-left: 5px;
-  background-color: #6c757d;
-}
-
-li button:hover {
-  background-color: #495057;
-}
+  c
